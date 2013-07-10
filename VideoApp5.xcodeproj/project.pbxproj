@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A807802E176EA04E0094BEEE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A807802D176EA04E0094BEEE /* Quartz.framework */; };
+		A83DEE99178B33880075CAD6 /* RWProgressPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83DEE98178B33880075CAD6 /* RWProgressPanelController.m */; };
+		A8C19E571764F7D400CC6EB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C19E561764F7D400CC6EB6 /* Cocoa.framework */; };
+		A8C19E611764F7D400CC6EB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C19E5F1764F7D400CC6EB6 /* InfoPlist.strings */; };
+		A8C19E631764F7D400CC6EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C19E621764F7D400CC6EB6 /* main.m */; };
+		A8C19E671764F7D400CC6EB6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A8C19E651764F7D400CC6EB6 /* Credits.rtf */; };
+		A8C19E6A1764F7D400CC6EB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C19E691764F7D400CC6EB6 /* AppDelegate.m */; };
+		A8C19E6D1764F7D400CC6EB6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C19E6B1764F7D400CC6EB6 /* MainMenu.xib */; };
+		A8C19E751764F7D400CC6EB6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C19E741764F7D400CC6EB6 /* SenTestingKit.framework */; };
+		A8C19E761764F7D400CC6EB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C19E561764F7D400CC6EB6 /* Cocoa.framework */; };
+		A8C19E7E1764F7D400CC6EB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8C19E7C1764F7D400CC6EB6 /* InfoPlist.strings */; };
+		A8C19E811764F7D400CC6EB6 /* VideoApp5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C19E801764F7D400CC6EB6 /* VideoApp5Tests.m */; };
+		A8C19E8B1764FC1F00CC6EB6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C19E8A1764FC1F00CC6EB6 /* AVFoundation.framework */; };
+		A8C19E8D1765055000CC6EB6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C19E8C1765055000CC6EB6 /* CoreMedia.framework */; };
+		A8C19E9117652FC100CC6EB6 /* TimeRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C19E8F17652FC100CC6EB6 /* TimeRange.m */; };
+		A8C19E9217652FC100CC6EB6 /* TimeRange.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C19E9017652FC100CC6EB6 /* TimeRange.xib */; };
+		A8C19E96176530C100CC6EB6 /* TrimedVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C19E94176530C100CC6EB6 /* TrimedVideo.m */; };
+		A8C19E97176530C100CC6EB6 /* TrimedVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C19E95176530C100CC6EB6 /* TrimedVideo.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C19E771764F7D400CC6EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C19E4B1764F7D400CC6EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C19E521764F7D400CC6EB6;
+			remoteInfo = VideoApp5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A807802D176EA04E0094BEEE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		A83DEE97178B33880075CAD6 /* RWProgressPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWProgressPanelController.h; sourceTree = "<group>"; };
+		A83DEE98178B33880075CAD6 /* RWProgressPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWProgressPanelController.m; sourceTree = "<group>"; };
+		A8C19E531764F7D400CC6EB6 /* VideoApp5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoApp5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C19E561764F7D400CC6EB6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A8C19E591764F7D400CC6EB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A8C19E5A1764F7D400CC6EB6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A8C19E5B1764F7D400CC6EB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8C19E5E1764F7D400CC6EB6 /* VideoApp5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoApp5-Info.plist"; sourceTree = "<group>"; };
+		A8C19E601764F7D400CC6EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8C19E621764F7D400CC6EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C19E641764F7D400CC6EB6 /* VideoApp5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoApp5-Prefix.pch"; sourceTree = "<group>"; };
+		A8C19E661764F7D400CC6EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A8C19E681764F7D400CC6EB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8C19E691764F7D400CC6EB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8C19E6C1764F7D400CC6EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A8C19E731764F7D400CC6EB6 /* VideoApp5Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoApp5Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C19E741764F7D400CC6EB6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8C19E7B1764F7D400CC6EB6 /* VideoApp5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoApp5Tests-Info.plist"; sourceTree = "<group>"; };
+		A8C19E7D1764F7D400CC6EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8C19E7F1764F7D400CC6EB6 /* VideoApp5Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoApp5Tests.h; sourceTree = "<group>"; };
+		A8C19E801764F7D400CC6EB6 /* VideoApp5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoApp5Tests.m; sourceTree = "<group>"; };
+		A8C19E8A1764FC1F00CC6EB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A8C19E8C1765055000CC6EB6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A8C19E8E17652FC100CC6EB6 /* TimeRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRange.h; sourceTree = "<group>"; };
+		A8C19E8F17652FC100CC6EB6 /* TimeRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRange.m; sourceTree = "<group>"; };
+		A8C19E9017652FC100CC6EB6 /* TimeRange.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeRange.xib; sourceTree = "<group>"; };
+		A8C19E93176530C000CC6EB6 /* TrimedVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrimedVideo.h; sourceTree = "<group>"; };
+		A8C19E94176530C100CC6EB6 /* TrimedVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrimedVideo.m; sourceTree = "<group>"; };
+		A8C19E95176530C100CC6EB6 /* TrimedVideo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrimedVideo.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C19E501764F7D400CC6EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A807802E176EA04E0094BEEE /* Quartz.framework in Frameworks */,
+				A8C19E8D1765055000CC6EB6 /* CoreMedia.framework in Frameworks */,
+				A8C19E8B1764FC1F00CC6EB6 /* AVFoundation.framework in Frameworks */,
+				A8C19E571764F7D400CC6EB6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C19E6F1764F7D400CC6EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C19E751764F7D400CC6EB6 /* SenTestingKit.framework in Frameworks */,
+				A8C19E761764F7D400CC6EB6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C19E4A1764F7D400CC6EB6 = {
+			isa = PBXGroup;
+			children = (
+				A8C19E5C1764F7D400CC6EB6 /* VideoApp5 */,
+				A8C19E791764F7D400CC6EB6 /* VideoApp5Tests */,
+				A8C19E551764F7D400CC6EB6 /* Frameworks */,
+				A8C19E541764F7D400CC6EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C19E541764F7D400CC6EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C19E531764F7D400CC6EB6 /* VideoApp5.app */,
+				A8C19E731764F7D400CC6EB6 /* VideoApp5Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C19E551764F7D400CC6EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A807802D176EA04E0094BEEE /* Quartz.framework */,
+				A8C19E8C1765055000CC6EB6 /* CoreMedia.framework */,
+				A8C19E8A1764FC1F00CC6EB6 /* AVFoundation.framework */,
+				A8C19E561764F7D400CC6EB6 /* Cocoa.framework */,
+				A8C19E741764F7D400CC6EB6 /* SenTestingKit.framework */,
+				A8C19E581764F7D400CC6EB6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C19E581764F7D400CC6EB6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C19E591764F7D400CC6EB6 /* AppKit.framework */,
+				A8C19E5A1764F7D400CC6EB6 /* CoreData.framework */,
+				A8C19E5B1764F7D400CC6EB6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A8C19E5C1764F7D400CC6EB6 /* VideoApp5 */ = {
+			isa = PBXGroup;
+			children = (
+				A8C19E681764F7D400CC6EB6 /* AppDelegate.h */,
+				A8C19E691764F7D400CC6EB6 /* AppDelegate.m */,
+				A83DEE97178B33880075CAD6 /* RWProgressPanelController.h */,
+				A83DEE98178B33880075CAD6 /* RWProgressPanelController.m */,
+				A8C19E8E17652FC100CC6EB6 /* TimeRange.h */,
+				A8C19E8F17652FC100CC6EB6 /* TimeRange.m */,
+				A8C19E9017652FC100CC6EB6 /* TimeRange.xib */,
+				A8C19E93176530C000CC6EB6 /* TrimedVideo.h */,
+				A8C19E94176530C100CC6EB6 /* TrimedVideo.m */,
+				A8C19E95176530C100CC6EB6 /* TrimedVideo.xib */,
+				A8C19E6B1764F7D400CC6EB6 /* MainMenu.xib */,
+				A8C19E5D1764F7D400CC6EB6 /* Supporting Files */,
+			);
+			path = VideoApp5;
+			sourceTree = "<group>";
+		};
+		A8C19E5D1764F7D400CC6EB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C19E5E1764F7D400CC6EB6 /* VideoApp5-Info.plist */,
+				A8C19E5F1764F7D400CC6EB6 /* InfoPlist.strings */,
+				A8C19E621764F7D400CC6EB6 /* main.m */,
+				A8C19E641764F7D400CC6EB6 /* VideoApp5-Prefix.pch */,
+				A8C19E651764F7D400CC6EB6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C19E791764F7D400CC6EB6 /* VideoApp5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C19E7F1764F7D400CC6EB6 /* VideoApp5Tests.h */,
+				A8C19E801764F7D400CC6EB6 /* VideoApp5Tests.m */,
+				A8C19E7A1764F7D400CC6EB6 /* Supporting Files */,
+			);
+			path = VideoApp5Tests;
+			sourceTree = "<group>";
+		};
+		A8C19E7A1764F7D400CC6EB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C19E7B1764F7D400CC6EB6 /* VideoApp5Tests-Info.plist */,
+				A8C19E7C1764F7D400CC6EB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C19E521764F7D400CC6EB6 /* VideoApp5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C19E841764F7D400CC6EB6 /* Build configuration list for PBXNativeTarget "VideoApp5" */;
+			buildPhases = (
+				A8C19E4F1764F7D400CC6EB6 /* Sources */,
+				A8C19E501764F7D400CC6EB6 /* Frameworks */,
+				A8C19E511764F7D400CC6EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoApp5;
+			productName = VideoApp5;
+			productReference = A8C19E531764F7D400CC6EB6 /* VideoApp5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C19E721764F7D400CC6EB6 /* VideoApp5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C19E871764F7D400CC6EB6 /* Build configuration list for PBXNativeTarget "VideoApp5Tests" */;
+			buildPhases = (
+				A8C19E6E1764F7D400CC6EB6 /* Sources */,
+				A8C19E6F1764F7D400CC6EB6 /* Frameworks */,
+				A8C19E701764F7D400CC6EB6 /* Resources */,
+				A8C19E711764F7D400CC6EB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C19E781764F7D400CC6EB6 /* PBXTargetDependency */,
+			);
+			name = VideoApp5Tests;
+			productName = VideoApp5Tests;
+			productReference = A8C19E731764F7D400CC6EB6 /* VideoApp5Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C19E4B1764F7D400CC6EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Elvis Hatungimana";
+			};
+			buildConfigurationList = A8C19E4E1764F7D400CC6EB6 /* Build configuration list for PBXProject "VideoApp5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8C19E4A1764F7D400CC6EB6;
+			productRefGroup = A8C19E541764F7D400CC6EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C19E521764F7D400CC6EB6 /* VideoApp5 */,
+				A8C19E721764F7D400CC6EB6 /* VideoApp5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C19E511764F7D400CC6EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C19E611764F7D400CC6EB6 /* InfoPlist.strings in Resources */,
+				A8C19E671764F7D400CC6EB6 /* Credits.rtf in Resources */,
+				A8C19E6D1764F7D400CC6EB6 /* MainMenu.xib in Resources */,
+				A8C19E9217652FC100CC6EB6 /* TimeRange.xib in Resources */,
+				A8C19E97176530C100CC6EB6 /* TrimedVideo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C19E701764F7D400CC6EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C19E7E1764F7D400CC6EB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8C19E711764F7D400CC6EB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C19E4F1764F7D400CC6EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C19E631764F7D400CC6EB6 /* main.m in Sources */,
+				A8C19E6A1764F7D400CC6EB6 /* AppDelegate.m in Sources */,
+				A8C19E9117652FC100CC6EB6 /* TimeRange.m in Sources */,
+				A8C19E96176530C100CC6EB6 /* TrimedVideo.m in Sources */,
+				A83DEE99178B33880075CAD6 /* RWProgressPanelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C19E6E1764F7D400CC6EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C19E811764F7D400CC6EB6 /* VideoApp5Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C19E781764F7D400CC6EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C19E521764F7D400CC6EB6 /* VideoApp5 */;
+			targetProxy = A8C19E771764F7D400CC6EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8C19E5F1764F7D400CC6EB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C19E601764F7D400CC6EB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8C19E651764F7D400CC6EB6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C19E661764F7D400CC6EB6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A8C19E6B1764F7D400CC6EB6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C19E6C1764F7D400CC6EB6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A8C19E7C1764F7D400CC6EB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C19E7D1764F7D400CC6EB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C19E821764F7D400CC6EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A8C19E831764F7D400CC6EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A8C19E851764F7D400CC6EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoApp5/VideoApp5-Prefix.pch";
+				INFOPLIST_FILE = "VideoApp5/VideoApp5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8C19E861764F7D400CC6EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoApp5/VideoApp5-Prefix.pch";
+				INFOPLIST_FILE = "VideoApp5/VideoApp5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8C19E881764F7D400CC6EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoApp5.app/Contents/MacOS/VideoApp5";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoApp5/VideoApp5-Prefix.pch";
+				INFOPLIST_FILE = "VideoApp5Tests/VideoApp5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A8C19E891764F7D400CC6EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoApp5.app/Contents/MacOS/VideoApp5";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoApp5/VideoApp5-Prefix.pch";
+				INFOPLIST_FILE = "VideoApp5Tests/VideoApp5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C19E4E1764F7D400CC6EB6 /* Build configuration list for PBXProject "VideoApp5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C19E821764F7D400CC6EB6 /* Debug */,
+				A8C19E831764F7D400CC6EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C19E841764F7D400CC6EB6 /* Build configuration list for PBXNativeTarget "VideoApp5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C19E851764F7D400CC6EB6 /* Debug */,
+				A8C19E861764F7D400CC6EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C19E871764F7D400CC6EB6 /* Build configuration list for PBXNativeTarget "VideoApp5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C19E881764F7D400CC6EB6 /* Debug */,
+				A8C19E891764F7D400CC6EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C19E4B1764F7D400CC6EB6 /* Project object */;
+}
